@@ -18,21 +18,23 @@ How It Works
         Reconstructs the Huffman Tree from the encoding map.
         Decodes the binary data to retrieve the original string.
 
-Usage
+USAGE:
+
+
 Compress a String
 
-Run the program and choose the compression option:
-
-Enter the string to compress: aaaabbbcc
-Compressed output:
-a:0;b:10;c:11;
-0000101011
+    Run the program and choose the compression option:
+    
+    Enter the string to compress: aaaabbbcc
+    Compressed output:
+    a:0;b:10;c:11;
+    0000101011
 
 Decompress a String
 
-Provide the encoding map and binary data:
-
-Enter the encoding map: a:0;b:10;c:11;
-Enter the binary data: 0000101011
-Decompressed output:
-aaaabbbcc
+    Provide the encoding map and binary data:
+    
+    Enter the encoding map: a:0;b:10;c:11;
+    Enter the binary data: 0000101011
+    Decompressed output:
+    aaaabbbcc
